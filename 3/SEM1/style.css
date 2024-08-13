@@ -1,0 +1,34 @@
+* { /*обнуление всех стилей*/
+    margin: 0;
+    padding: 0;   
+}
+.top{
+    background: #020a18;
+    padding-bottom: 99px;
+}
+.header{
+    margin-top: 39px;
+    margin-bottom: 39px;
+}
+.header__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.top__content{
+    margin-top: 160px;
+    margin-bottom: 197px;
+}
+.title{
+    margin-bottom: 10px;
+    color: #3A68B8;
+    font-size: 18px;    
+}
+.top__info__title2{
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 55px;     
+}
+.top__btns{
+    margin-top: 50px;
+}
