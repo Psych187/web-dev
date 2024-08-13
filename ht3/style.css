@@ -1,0 +1,35 @@
+*{ /*обнуление всех стилей*/
+    margin: 0;
+    padding: 0;   
+}
+.top{
+    padding-bottom: 96px;
+}
+.header{
+    margin-top: 40px;
+    margin-bottom: 84px;
+}
+.header__logo{
+    margin-right: 500px;
+}
+.header__links{
+    text-decoration: none;
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 16px;
+}
+.top__info__text{
+    font-size: 20px;
+    color: #888;
+}
+.top__info__btns{
+    margin-top: 37px;
+    margin-bottom: 62px;
+    border: none;
+    border-radius: 50px;
+}
+.logos{
+    margin-top: 97px;
+
+}
