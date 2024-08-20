@@ -87,3 +87,124 @@ body{
     justify-content: center;
     gap: 48px;
 }
+
+
+.content{
+
+}
+.content__top{
+    fpadding-top: 140px;
+    fpadding-bottom: 125px;
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(3, 310px);
+    justify-content: center;
+}
+.top__item{
+margin-top: 140px;
+margin-bottom: 125px;
+}
+.top__item__heading{
+    margin-top: 25px;
+    margin-bottom: 17px;
+    Font-weight: 400;
+    Font-size: 24px;
+
+}
+.top__item__text{
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.item_big{
+    margin-top: 100px;
+    padding-left: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.content__top__button{
+    border: none;
+    background: #fff;
+    margin-top: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.content__bottom{
+    background: rgb(250, 250, 250);
+    padding-top: 92px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.content__bottom__heading{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+}
+.content__bottom__text{
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom__text{
+    max-width: 682px;
+    text-align: center;
+    color: rgb(102, 102, 102);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-top: 19px;
+}
+.bottom__item{
+    background: rgb(255, 255, 255);
+    margin-top: 55px;
+    margin-bottom: 100px;
+}
+.bottom__item__heading{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.bottom__item__text{
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.bottom__button{
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 15px 36px 15px 36px;
+    margin: 39px 120px 50px 100px;
+}
+.bottom__item__shad{
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
