@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.top__header{
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+.header__logosl{
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    margin-top: 18px;
+    margin-bottom: 19px;
+    margin-left: 231px;
+}
+.header__logosr{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+    margin-right: 240px;
+}
+.top__info{
+    background: #F1E4E6;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.top__info__text{
+    line-height: 40px;
+}
+.title{
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    margin-left: 63.5px;
+}
+
+.discount{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 65px;
+    padding-bottom: 96px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+    justify-items: center;
+}
+.container__text{
+    grid-column: span 3;
+    margin-bottom: 18px;
+}
+.container__heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: rgb(34, 34, 34);
+
+}
+.container__heading__text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    color: rgb(159, 159, 159);
+}
+.container__item{
+    background: #F8F8F8;
+}
+.item__heading{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+.item__text{
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    color: rgb(93, 93, 93);
+}
+.item__price{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    color: rgb(241, 109, 127);
+}
+.container__button{
+    grid-column: span 3;
+    border: 1px solid #Ff6a6a;
+    color: #F26376;
+    padding: 15px 39px;
+    margin-top: 18.5px;
+    margin-bottom: 60.5px;
+}
