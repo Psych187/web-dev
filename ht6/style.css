@@ -207,3 +207,70 @@ body{
         grid-column: span 2;
     }
 }
+@media (max-width: 767px) and (min-width: 320px){
+    .center{
+        width: 100%;
+    }
+    .hidden{
+        display: none;
+    }
+
+    .header__logos{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .top__info{
+
+        justify-content: center;
+    }
+    .top__info__text{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 148px;
+        margin-bottom: 148px;
+        margin-left: 0;
+        flex-direction: row;
+        align-items: center;
+    }
+    .rectangle{
+        width: 12px;
+        height: 61px;
+    }
+    .title{
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 20px;
+
+    }
+    .title_f{
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+    .discount{
+        gap: 32px;
+        padding-top: 64px;
+        padding-bottom: 64px;
+}
+    .discount img{
+        width: 343px;
+    }
+    .discount__imgl{
+        height: 20vh;
+        object-fit: cover;
+    }
+    .container{
+        grid-template-columns: repeat(1, 360px);
+        gap: 16px;
+    }
+    .container__text{
+        grid-column: span 1;
+    }
+    .container__button{
+        grid-column: span 1;
+    }
+    .container__button{
+        margin-top: 24px;
+        margin-bottom: 85px;
+    }
+}
