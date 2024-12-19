@@ -351,6 +351,10 @@ body{
 
 .feedback{
     background-image: url("img/photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
